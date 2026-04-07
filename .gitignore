@@ -1,0 +1,12 @@
+node_modules/
+package-lock.json
+/pkg
+/*.tgz
+/dist
+DEBUG-*
+/.yarn
+/.vscode
+/.claude
+.pnp.cjs
+.pnp.loader.mjs
+CLAUDE.md

@@ -1,0 +1,27 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"id": "harrison-livetrax",
+	"name": "Harrison Audio LiveTrax",
+	"shortname": "LiveTrax",
+	"description": "Control Harrison Audio LiveTrax via OSC",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/lnswlrd/companion-module-harrison-livetrax.git",
+	"bugs": "https://github.com/lnswlrd/companion-module-harrison-livetrax/issues",
+	"maintainers": [
+		{
+			"name": "Linus Wileryd",
+			"email": "linus@cutup.se"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Harrison Audio",
+	"products": ["LiveTrax"],
+	"keywords": ["osc", "daw", "recording", "multitrack", "harrison", "livetrax"]
+}
